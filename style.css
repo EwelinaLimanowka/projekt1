@@ -161,7 +161,7 @@ p.c_header {
 .photo {
 	width: 300px;
 	height: 399px;
-	transition: transform 1s easy-in-out;
+	transition: transform .3s ease-in-out;
 }
 
 .photo:hover {
