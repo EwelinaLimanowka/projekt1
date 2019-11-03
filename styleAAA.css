@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Quicksand", sans-serif;
+}
+
+header {
+	background: url('img/las.jpg') center;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	color: rgb(241, 255, 48);
+}
+h2 {
+	font-size: 28px;
+	color: white;
+}
+
+button {
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	width: 200px;
+	height: 50px;
+	padding: 10px;
+	background-color: rgba(130, 130, 130, 0.2);
+	border: 1px solid white;
+	color: white;
+	font-size: 20px;
+	margin-top: -25px;
+	margin-left: -100px;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+button a:hover {
+	color: rgb(241, 255, 48);
+}

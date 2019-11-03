@@ -1,0 +1,171 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: "Quicksand", sans-serif;
+ 	box-sizing: border-box;
+ }
+ :root {
+ 	--zolty: rgb(241, 255, 48);
+	--ciemnyszary: rgb(65, 65, 65);
+	--jasnyszary: rgb(160, 160, 160);
+ }
+ body {
+ 	background-color: white;
+ 	max-width: 1000px;
+ 	margin: 0 auto;
+ }
+header {
+	background: url('img/header2.jpg') center;
+	height: 140px;
+	width: 100%;
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	border-bottom: 4px solid var(--jasnyszary);
+}
+
+h1 a {
+ 	font-family: "Quicksand", sans-serif;
+	color: var(--zolty);
+ 	font-size: 24;
+ 	margin-left: 5px;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+div.nav {
+	width: 100%;
+	background-color: white;
+	padding: 5px;
+	text-align: right;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--jasnyszary);
+    margin: 0 20px;
+}
+
+.nav a:hover {
+	color: var(--ciemnyszary);
+}
+
+.active {
+	color: var(--ciemnyszary);
+	border-bottom: 3px solid rgb(241, 255, 48);
+}
+
+.ja {
+	display: flex;
+	padding: 0;
+	background-color: white;
+}
+
+.moje_zdj {
+	width: 300px;
+}
+
+.opis {
+	padding: 2em;
+	text-align: justify;
+}
+
+.opis h1 {
+	font-size: 2em;
+	color: var(--ciemnyszary);
+}
+
+.opis h3 {
+	color: var(--ciemnyszary);
+}
+
+.opis p {
+	color: var(--ciemnyszary);
+}
+
+.kontakt {
+	width: 100%;
+	height: 80vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.box {
+	width: 300px;
+	height: 100px;
+	border: 2px solid var(--ciemnyszary);
+	box-sizing: border-box;
+	padding: 15px;
+	text-align: center;
+	color: var(--ciemnyszary);
+	margin: 5px auto;
+}
+
+.box h4 {
+	text-transform: uppercase;
+	border-bottom: 1px solid black;
+}
+
+.box p {
+	margin-top: 15px;
+}
+
+footer {
+	width: 100%;
+	height: 28px;
+	background-color: white;
+	color: var(--ciemnyszary);
+	padding: 5px;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 15px;
+	background-color:white; 
+}
+
+p.c_header {
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	color: var(--ciemnyszary);
+	font-size: 22px;
+	font-weight: 500;
+	padding: 10px;
+}
+
+.zdj {
+	display: inline-block;
+	width: 320px;
+	text-align: center;
+	padding: 5px;
+}
+
+.zdj p {
+	padding: 5px;
+	font-weight: 500;
+	color: var(--ciemnyszary);
+}
+
+.photo {
+	width: 300px;
+	height: 399px;
+	transition: transform 1s easy-in-out;
+}
+
+.photo:hover {
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+}
